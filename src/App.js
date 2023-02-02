@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import One from "./pages/1One/One";
+import Two from "./pages/2Two/Two";
+import Three from "./pages/3Three/Three";
+import Four from "./pages/4Four/Four";
+import Five from "./pages/5Five/Five";
+import Six from "./pages/6Six/Six";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <One/>
+            <Two/>
+            <Three />
+            <Four />
+            <Five />
+            <Six />
+        </div>
+    );
 }
 
 export default App;
